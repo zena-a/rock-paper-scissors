@@ -37,7 +37,7 @@ while play_again:
       print("It's a draw!")
 
   #Checks to see if player wants to play again or not
-  play_option = input("Would you like to play again? Type Y or N ").capitalize()
+  play_option = input("Would you like to play again? Type Y or N ").upper()
   if play_option == "N":
     play_again = False
     print("\nThanks for playing!")
